@@ -21,7 +21,7 @@ choose_command_line() {
             echo "ecl -norc -load contemplate.lisp -eval '(quit)'"
         ;;
         'sbcl' )
-            echo "sbcl --script contemplate.lisp"
+            echo "$HOME/.roswell/impls/arm64/darwin/sbcl-bin/2.3.2/bin/sbcl --script contemplate.lisp"
         ;;
         * )
             echo ""
